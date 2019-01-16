@@ -1,0 +1,211 @@
+* {
+-moz-box-sizing: border-box;
+-webkit-box-sizing: border-box;
+box-sizing: border-box;
+-webkit-text-size-adjust: auto;
+}
+
+.jumbotron {
+  background-image:url("https://media.giphy.com/media/UYBDCJjwOd9Re/giphy.gif");
+  background-repeat: repeat;
+  padding: 5%;
+}
+
+#wrapper {
+  width: 1024px;
+  margin: 0 auto;
+}
+/* CALCULATOR STYLING */
+#calculator{
+  background-color: Linen;
+  padding: 40px;
+}
+#calculator h2{
+  padding-bottom: 20px;
+}
+#calc-subheading{
+  font-weight: bold;
+  display: block;
+  padding-bottom: 20px;
+}
+#nav-tab a{
+  color: DimGrey;
+  font-size: 30px;
+  padding: 15px;
+}
+#nav-tab a:hover{
+  color: black;
+}
+.calc-heading{
+  padding-bottom: 20px;
+}
+.calc-blocks{
+  padding-bottom: 30px;
+}
+.calc-labels{
+  padding-top: 15px;
+  padding-bottom: 5px;
+}
+
+#lonewolf-calc {
+  padding: 20px;
+  max-width: 1000px;
+}
+#chatterbox-calc{
+  padding: 20px;
+  max-width: 1000px;
+}
+#family-calc{
+  padding: 20px;
+  max-width: 1000px;
+}
+.calc-labels{
+  display: block;
+}
+.btn-group{
+  max-width: 70%;
+}
+.btn{
+  background-color: #C3D677;
+  border-color: #94AB34;
+}
+.btn:hover{
+  background-color: #94AB34;
+  border-color: #94AB34;
+}
+.btn:focus{
+  background-color: #94AB34;
+  box-shadow: none;
+}
+.btn:active {
+  border-color:  #94AB34!important;
+  background-color: #94AB34!important;
+}
+/* WHY DOESN'T THIS WORK?!?!?!?!?!
+.btn-primary:not(:disabled):not(.disabled).active:focus, .btn-primary:not(:disabled):not(.disabled):active:focus, .show>.btn-primary.dropdown-toggle:focus {
+  box-shadow: #94AB34!important;
+  border-color: #94AB34!important;
+} */
+.final-price-block h5{
+  font-size: 30px;
+  padding-top: 30px;
+}
+#cta{
+  padding-top: 15px;
+}
+#calc-cta{
+  background-color: #F8BB18;
+  border: none;
+}
+
+/* PACKAGES */
+#packages {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.card-body {
+  padding: 0%;
+}
+#packages h2{
+  padding-bottom: 15px;
+}
+.overview {
+  background-color: #F8F9FA;
+  padding: 20px;
+}
+@media (min-width: 769px) and (max-width: 991px){
+  #pack-block-f{
+    margin-bottom: 55px;
+  }
+}
+
+
+/* MISSION */
+#mission {
+  background-color: rgba(238, 239, 0, 0.33);
+  padding: 40px;
+
+}
+#mission h2{
+  padding-bottom: 40px;
+}
+
+#speech-bubble {
+  position: relative;
+	background: white;
+	border-radius: .4em;
+  max-width: 85%;
+  padding: 15px;
+}
+
+#speech-bubble:after {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 50%;
+	width: 0;
+	height: 0;
+	border: 21px solid transparent;
+	border-bottom-color: white;
+	border-top: 0;
+	border-left: 0;
+	margin-left: -10.5px;
+	margin-top: -21px;
+}
+/* FOOTER */
+footer {
+  background-color:#E9ECEF;
+}
+.fb-ic {
+  color: #3b5998;
+}
+.tw-ic {
+  color: #1da1f2;
+}
+.gplus-ic{
+  color: #dd4b39;
+}
+.ins-ic {
+  color: #e1306c;
+}
+.pin-ic {
+  color: #bd081c;
+}
+/* CONTACT PAGE */
+.contact-form {
+  padding: 10%;
+  background-color: #C3D677;
+}
+
+/* PACKAGE-PAGES */
+
+@media screen and (max-width: 769px) {
+  header {
+    padding-top: 5%;
+  }
+}
+
+.package-page-overview {
+  padding-top: 5%;
+}
+.card-border {
+  border: none;
+  padding:5%;
+}
+
+.text-without-heading {
+  padding: 10%;
+}
+
+#short-description {
+  font-size: 20px;
+}
+
+#call-to-action-buy-now-button {
+  margin: 10%;
+}
+
+.info-on-each-package {
+  background-color: rgba(238, 239, 0, 0.33);
+  padding: 40px;
+}
